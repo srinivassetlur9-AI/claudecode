@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <!-- Teacher and student, drawn in soft blues so it reads as a watermark behind the page content -->
+  <g opacity="0.8">
+    <!-- floor -->
+    <ellipse cx="320" cy="398" rx="290" ry="14" fill="#c9d8f6"/>
+
+    <!-- board -->
+    <rect x="40" y="40" width="360" height="215" rx="14" fill="#eaf1ff" stroke="#9db8ee" stroke-width="6"/>
+    <rect x="58" y="58" width="324" height="179" rx="8" fill="#f8faff"/>
+    <path d="M85 95h150M85 125h110M85 155h170" stroke="#9db8ee" stroke-width="7" stroke-linecap="round"/>
+    <path d="M285 205V120M285 205h80" stroke="#7fa0e6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M295 190l25-30 20 14 25-48" stroke="#5b86e0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="345" cy="126" r="7" fill="#5b86e0"/>
+    <rect x="130" y="256" width="180" height="10" rx="5" fill="#9db8ee"/>
+
+    <!-- teacher -->
+    <circle cx="455" cy="150" r="30" fill="#e6c9ad"/>
+    <path d="M425 143c4-22 24-30 42-24 14 5 20 16 18 28-10-14-26-18-40-14-8 3-14 8-20 10z" fill="#6f8fd6"/>
+    <path d="M420 215c0-24 16-40 35-40s35 16 35 40v142h-70z" fill="#7fa0e6"/>
+    <path d="M425 357v38M485 357v38" stroke="#5b86e0" stroke-width="16" stroke-linecap="round"/>
+    <path d="M425 205l-48-12" stroke="#7fa0e6" stroke-width="16" stroke-linecap="round"/>
+    <path d="M377 193l-62-44" stroke="#b08a5a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M488 205l22 46" stroke="#7fa0e6" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- student, seated at a desk -->
+    <circle cx="560" cy="230" r="26" fill="#e6c9ad"/>
+    <path d="M535 224c3-20 22-26 38-20 12 5 17 15 15 25-8-12-22-15-34-12-7 2-13 6-19 7z" fill="#4f6fc0"/>
+    <path d="M530 292c0-22 14-36 31-36s31 14 31 36v58h-62z" fill="#a7bff0"/>
+    <path d="M500 322h132v12H500zM512 334v62M620 334v62" stroke="#9db8ee" stroke-width="10" stroke-linecap="round"/>
+    <path d="M520 322l22-26 34 6 34-6 22 26z" fill="#f8faff" stroke="#7fa0e6" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M576 302v20" stroke="#7fa0e6" stroke-width="4"/>
+    <path d="M540 350c14 12 40 12 56 0" stroke="#a7bff0" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- floating ideas -->
+    <circle cx="500" cy="70" r="16" fill="#dbe6fb" stroke="#9db8ee" stroke-width="4"/>
+    <path d="M494 70h12M500 64v12" stroke="#5b86e0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M565 110l8 16 18 3-13 12 3 18-16-9-16 9 3-18-13-12 18-3z" fill="#dbe6fb" stroke="#9db8ee" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>

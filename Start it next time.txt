@@ -1,0 +1,24 @@
+Start it next time
+
+1. Start Docker Desktop and wait until it says the engine is running.
+2. Start the containers, either way:
+   - Docker Desktop: open Containers, find the learning-management-system group and click its Start (▶) button.
+   - Terminal:
+cd C:\Users\setlu\OneDrive\claudevscode\claudecode\learning-management-system
+docker compose up -d
+3. Wait about 30–60 seconds for the backend to finish starting. Logging in too early fails.
+4. Open http://localhost:8081 in your browser.
+
+Sign in: learner@lms.local with Demo@12345678. Other demo users such as super.admin@lms.local and org.admin@lms.local use the same password.
+
+Check the backend at http://localhost:8080/actuator/health. It should show {"status":"UP"}.
+
+Stop it
+- Docker Desktop: click Stop on the group.
+- Terminal: docker compose down. Your data is kept. Don't add -v, because that erases the database.
+
+If you changed code: run docker compose up -d --build so Docker rebuilds the images.
+
+✻ Crunched for 4s · done 11:17 PM
+
+❯

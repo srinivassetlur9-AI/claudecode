@@ -1,0 +1,6 @@
+package com.lms.identity.domain;
+
+public enum Role {
+    LEARNER, INSTRUCTOR, ORG_ADMIN, SUPER_ADMIN, CONTENT_ADMIN,
+    EXAM_ADMIN, EVENT_ADMIN, FINANCE_ADMIN, EVALUATOR, SUPPORT_AGENT
+}
